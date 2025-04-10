@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'package:foods/screens/categories_meals_screen.dart';
+import 'package:foods/utils/app_routes.dart';
 import 'screens/categories_screen.dart';
 
 void main() => runApp(MyApp());
@@ -15,19 +16,25 @@ class MyApp extends StatelessWidget {
           primary: Colors.pink,
           onPrimary: const Color.fromARGB(255, 255, 248, 224),
           secondary: Colors.amber,
-          onSecondary: Colors.black,
+          onSecondary: const Color.fromARGB(255, 255, 255, 255),
           error: Colors.red,
-          onError: Colors.white,
-          surface: Colors.white,
-          onSurface: Colors.white,
+          onError: Color.fromRGBO(255, 254, 229, 1),
+          surface: Color.fromRGBO(255, 254, 229, 1),
+          onSurface: Color.fromRGBO(255, 255, 255, 1),
         ),
         fontFamily: 'Raleway',
-        canvasColor: Color.fromRGBO(255, 254, 229, 1),
         textTheme: ThemeData.light().textTheme.copyWith(
-          titleMedium: TextStyle(fontSize: 20, fontFamily: 'RobotoCondensed'),
+          titleMedium: TextStyle(
+            color: const Color.fromARGB(255, 0, 0, 0),
+            fontSize: 20,
+            fontFamily: 'RobotoCondensed',
+          ),
         ),
       ),
-      home: CategoriesScreen(),
+      routes: {
+        AppRoutes.HOME: (ctx) => CategoriesScreen(),
+        AppRoutes.CATEGORIES_MEALS: (ctx) => CategoriesMealsScreen(),
+      },
     );
   }
 }
