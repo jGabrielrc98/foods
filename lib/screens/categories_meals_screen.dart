@@ -3,6 +3,7 @@ import 'package:foods/models/meal.dart';
 
 import '../models/category.dart';
 import '../data/dummy.data.dart';
+import '../components/meal.item.dart';
 
 class CategoriesMealsScreen extends StatelessWidget {
   @override
@@ -19,7 +20,7 @@ class CategoriesMealsScreen extends StatelessWidget {
       body: ListView.builder(
         itemCount: categoryMeals.length,
         itemBuilder: (ctx, index) {
-          return Text(categoryMeals[index].title);
+          return MealItem(categoryMeals[index]);
         },
       ),
     );
