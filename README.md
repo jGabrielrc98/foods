@@ -27,6 +27,19 @@ For more information on getting started with Flutter development, check out the 
 - Passagem de dados entre telas via construtor / Passing data between screens via constructor
 - Uso de rotas nomeadas e anônimas / Using named and anonymous routes
 
+![image](https://github.com/user-attachments/assets/c68ac30f-7d4d-4223-815e-d8e2adb12bd5)
+![image](https://github.com/user-attachments/assets/dc5cbae5-5736-4a1a-893d-7f70a340160d)
+![image](https://github.com/user-attachments/assets/35cd895f-a75a-40cc-a396-0e059812c934)
+![image](https://github.com/user-attachments/assets/91748f3a-8dbd-4ae5-ae31-0bd8308062b5)
+![image](https://github.com/user-attachments/assets/8b503bc5-3bd3-41aa-8e66-67eb1c98ef09)
+![image](https://github.com/user-attachments/assets/cd966d88-6649-4e77-b7ef-5b42cd4dc600)
+
+
+
+
+
+
+
 Esses conceitos são fundamentais para o desenvolvimento de apps complexos no Flutter, e este projeto oferece uma base sólida para entender como integrá-los em seus próprios apps.
 
 These concepts are fundamental for developing complex apps in Flutter, and this project provides a solid foundation for understanding how to integrate them into your own apps.
